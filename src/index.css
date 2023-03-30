@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  min-width: 200px;
+}
+
+.book__title--highlighted {
+  font-style: italic;
+}
+
+.error-msg {
+  background: red;
+  font-weight: 800;
+}
